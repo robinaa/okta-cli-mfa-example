@@ -201,7 +201,7 @@ if [ -z ${ORGPREFIX} ]
     echo "-o <okta org prefix> is required"; echo; usage
 fi
 
-ORGSUFFIX="oktapreview.com"
+ORGSUFFIX="okta.com"
 ORGURL="https://${ORGPREFIX}.${ORGSUFFIX}"
 
 ## get password
